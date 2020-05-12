@@ -50,6 +50,7 @@ self.addEventListener('activate', evt => {
     )
 })
 
+
 //fetch event
 self.addEventListener('fetch', evt => {
     if (evt.request.url.indexOf('firestore.googleapis.com') === -1) {
